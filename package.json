@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "nodemon ./src/bin/www",
-    "watch": "nodemon --ext js,html,json --ignore public"
+    "watch": "nodemon --ext js,html,json,ejs --ignore public"
   },
   "dependencies": {
     "connect-livereload": "^0.6.1",

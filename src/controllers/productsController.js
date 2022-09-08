@@ -11,7 +11,7 @@ const controller = {
 	index: (req, res) => {
 		// Do the magic
 		res.render("products", {
-			productos,
+			products,
 			toThousand
 		})
 	},

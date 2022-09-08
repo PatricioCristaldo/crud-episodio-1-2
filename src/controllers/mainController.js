@@ -11,7 +11,7 @@ const controller = {
 		// Do the magic
 		let productsInsale = products.filter(products => products.category === "in-sale");
 		let productsVisited = products.filter(products => products.category === "visited");
-		res.render("index"), {productsInsale,productsVisited,toThousand};
+		res.render("index", {productsInsale,productsVisited,toThousand});
 	},
 	search: (req, res) => {
 		// Do the magic
